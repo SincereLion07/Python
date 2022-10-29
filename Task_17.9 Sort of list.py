@@ -11,10 +11,6 @@
 # При установке позиции элемента воспользуйтесь алгоритмом двоичного поиска. Реализуйте его также отдельной функцией
 
 
-def step(x):
-    return sorted(x)
-
-
 def binary_search(array, element):
     try:
         element = int(element)
